@@ -1,0 +1,17 @@
+version : '2.0'
+
+services:
+    django:
+        ports: 
+            - "8800:8800"
+        image: anuragrana/pythondjango
+        working_dir: /usr/src/app
+        volumes:
+            - ./:/usr/src/app
+        links: 
+            - mydb
+ 
+    mydb:
+        image: anuragrana/mysql
+        environment:
+            MYSQL_ROOT_PASSWORD: root
