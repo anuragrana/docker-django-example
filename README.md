@@ -20,10 +20,14 @@ With this, you need not to create virtual environment or to install anything at 
 
 
 ### Notes:
- - To test the project as you code, instead of copying the current directory in dockerfile, mount it while running container.
+ - To test the project as you code, mount the current directory while running container.
+
+    `sudo docker container run -v "$(pwd)":/usr/src/app  --rm -p 8800:8800 --name django-sample image_name`
 
 
-This code is developed as a part of Django tutorials listed on Http://ThePythonDjango.Com
+### Article:
+
+Follow this article for step-wise guide.
 
 
 ----------------------
