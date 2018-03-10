@@ -29,6 +29,16 @@ With this, you need not to create virtual environment or to install anything at 
 
 Follow this article for step-wise guide.
 
+http://thepythondjango.com/using-docker-instead-of-virtual-environment-for-django-app-development/
+
+
+### Installing Docker:
+
+Please follow steps given at below link to install Docker.
+
+https://docs.docker.com/install/linux/docker-ce/ubuntu/
+
+We are using docker version 17.12.1-ce for this article.
 
 ----------------------
 
