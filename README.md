@@ -29,7 +29,7 @@ With this, you need not to create virtual environment or to install anything at 
 
 Follow this article for step-wise guide.
 
-http://thepythondjango.com/using-docker-instead-of-virtual-environment-for-django-app-development/
+https://www.pythoncircle.com/post/488/using-docker-instead-of-virtual-environment-for-django-app-development/
 
 
 ### Installing Docker:
